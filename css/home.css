@@ -1,0 +1,400 @@
+﻿.logo-slogan{margin-top: 27px;
+    display: block; margin-left:20px;
+    height: 16px;
+    line-height: 16px;
+    overflow: hidden;
+    font-size: 16px;
+    color:#616161;}
+.home-firstscreen{ height:358px; background:url(../images/newpcbway/new-pcbw_03.jpg) no-repeat center center #388735;}
+.home-firstscreen .pcbquote-main{ position: relative;
+    z-index: 10;}
+.home-firstscreen .banner-con{width:100%;height:358px;overflow:hidden;position:relative;z-index:0;}
+.pcbquote-main .pcb_tab_type{position:relative;z-index:11;float:left;width:178px;margin-top:24px;margin-right:-198px;height:308px;background:#008a32;}
+.pcbquote-main .pcb_tab_type a{display:block;height:46px;overflow:hidden;margin-top:-1px;line-height:46px;text-indent:23px;font-size:14px;color:#FFF;border-top:1px solid #00cc4d;background-color:#00a63f;}
+.pcbquote-main .pcb_tab_type a:first-child{border-top:0 none;margin-top:0;}
+.pcbquote-main .pcb_tab_type a i.p-icon{ width:18px; height:18px; margin-right:10px;}
+.pcbquote-main .pcb_tab_type .pcb-prototype i.p-icon{ background-position:0 -79px}
+.pcbquote-main .pcb_tab_type .pcb-stencil i.p-icon{background-position:-28px -79px}
+.pcbquote-main .pcb_tab_type .pcb-smt i.p-icon{background-position:-56px -79px}
+.pcbquote-main .pcb_tab_type .flexible-pcb i.p-icon{background-position:-225px -79px}
+.pcbquote-main .pcb_tab_type .flexible-pcb.current i.p-icon{background-position:-225px -52px}
+.pcbquote-main .pcb_tab_type .pcb-prototype.current i.p-icon{ background-position:0 -51px}
+.pcbquote-main .pcb_tab_type .pcb-stencil.current i.p-icon{background-position:-28px -51px}
+.pcbquote-main .pcb_tab_type .pcb-smt.current i.p-icon{background-position:-56px -52px}
+.pcb_tab_type a.current,.pcb_tab_type a.current:hover,.pcb_tab_type a:hover{position:relative;margin-top:0;text-indent:18px;text-decoration:none;color:#333;border-top:0 none;border-left:5px solid #FF960D;background-color:#f2f5f8;}
+.pcb_tab_type a:hover{color:#FFF;background-color:#00ba47;}
+.pcbquote-main .pcb_cont{overflow:hidden;margin-left:178px;width:470px;zoom:1;margin-top:24px;height:308px;background-color:#f2f5f8; background-image:url(../images/pwicon.png); background-position:0 -199px; background-repeat:no-repeat;}
+.pcb_cont .pcbquote_form{padding:24px;}
+.flight-type-select h3{color:#008a32; font-weight:bold; font-size:22px; margin-bottom:4px;}
+.flight-type-select p{color:#999;font-size:12px;}
+.pcbquote-main .pcb_cont .s_list li label{display:block;line-height:20px;font-weight:700;white-space:nowrap;}
+.pcbquote-main .pcb_cont .s_list li{float:left;display:inline-block;width:40%;min-width:40%;padding-left:2%;margin-bottom:10px;position:relative;}
+.pcb_cont .s_list{margin-left:-2%;margin-top:5px;}
+.pcb_cont .s_list li input[type=text]{float:left;width:92%;height:28px;text-indent:5px;border:1px solid #999;background-color:#FFF;outline:0;line-height:28px;padding-left:5px;}
+.pcb_cont .s_list li input[type=radio]{ vertical-align:middle;}
+.pcb_cont .s_list li .asmessage{max-width:100%;min-height:50px;line-height:18px;padding:3px 5px;resize:none;border:1px solid #999;width:93%;}
+.chicun{font-size:11px;border-right:1px solid #999;}
+.pcb_cont .s_list li.long_form{width:100%}
+.pcb_cont .s_list li.long_form input{width:350px}
+.pcb_cont .s_list li.small_form{float:left;width:auto;min-width:30.08%}
+.pcb_cont .s_list li select{width:100%;height:30px;color:#333;border:1px solid #999;background-color:#FFF;outline:0}
+.pcb_cont .s_list li option{ padding:3px 0;}
+.pcb_cont .s_list li input[type=text]:focus,.pcb_cont .s_list li input[type=text]:hover,.pcb_cont .s_list li select:focus,.pcb_cont .s_list li select:hover{border-color:#67A1E1}
+.input-x-addon {float:left; background:#f2f5f8; width:22px; height:28px; text-align:center; border-top:1px solid #999;border-bottom:1px solid #999;line-height:28px;}
+.pcb_cont .flight-type-select{ margin-bottom:20px;}
+.pqFormSubmit{margin-top:12px;}
+.pqFormSubmit .qsubmit.ui-button-primary{ background-color:#f58217; padding:5px 20px 5px 16px;font-size:16px;}.pcb_cont .ui-button-primary.qsubmit:hover{ background-color:#ff6600; }
+.pqFormSubmit .qsubmit i.p-icon{width:14px; height:20px; background-position:-275px -2px; margin-right:16px;}
+.pqFormSubmit .hui-coupons{color:#008a32; margin-left:16px;}
+.pqFormSubmit .hui-coupons i.p-icon{ background-position:-247px -17px;width:14px; height:13px; margin-right:9px;}
+.pqFormSubmit .hui-coupons em{ font-size:14px; color:#ff6600;}
+.pw-main-feature{ border-bottom:1px solid #ddd;}
+
+.pcbw_process{ border-bottom:1px solid #f1f1f1;}
+.process-title{ width:17.8%;float:left; padding:27px 0 20px;text-align:center;border-right:1px solid #f1f1f1;}
+.process-title h3{color:#616161; font-size:18px; font-weight:bold;margin-bottom:3px;}
+.process-title .pro-content{ color:#999; font-size:14px; margin-bottom:10px;}
+.process-step{ width:82%; float:left;padding:27px 0 20px;}
+.process-step .steptopicon{ margin:6px 0;}
+.process-step .steptopicon li{ float:left; width:14%; height:42px;}
+.process-step .steptopicon li.payme{ width:16%;}
+.process-step .steptopicon li i{display:inline-block; width:60%; height:42px; float:left;}
+.process-step .steptopicon li span{height:2px;background-color:#c9c9c9; width:20%;display:inline-block;margin:20px 0;float:left;}
+.process-step .steptopicon li.onliquot i{background:url(../images/stepprocess_01.png) no-repeat center center;margin-left:20%;}
+.process-step .steptopicon li.uplpcbfil i{background:url(../images/stepprocess_03.png) no-repeat center center;}
+.process-step .steptopicon li.ordreview i{background:url(../images/stepprocess_05.png) no-repeat center center;}
+.process-step .steptopicon li.payme i{background:url(../images/stepprocess_07.png) no-repeat center center;}
+.process-step .steptopicon li.fabric i{background:url(../images/stepprocess_09.png) no-repeat center center;}
+.process-step .steptopicon li.delive i{background:url(../images/stepprocess_11.png) no-repeat center center;}
+.process-step .steptopicon li.comrec i{background:url(../images/stepprocess_13.png) no-repeat center center;margin-right:20%}
+.process-step .steptopcontent li{ float:left; width:14%; height:22px; text-align:center; color:#999; font-size:14px;}
+.process-step .steptopcontent li.payme{ width:16%;}
+
+.pcb_prototype .pcb_p1{ font-size:16px;text-align:left; margin-left:9%;}
+.pcb_prototype .pcb_p1 .small_descript{ font-size:12px; font-weight:normal; color:#999;}
+.pcb_prototype .pcb_p1.big_descipt{font-size: 16px;color: #00a63f; padding-top:12px;}
+.pcb_prototype .process-title{ position:relative; height:126px;}
+.pcb_prototype .process-title img{ display:block; width:83px; height:83px; position:absolute; right:10px; bottom:10px;}
+.pcb_prototype .process-title a{ color:#1686CC; text-align:left; display:block;margin-left: 9%; margin-top:24px;}
+.pcb_prototype .layers_pcb2{ float:left; width:50%; font-size:14px;}
+.pcb_prototype .layers_pcb4{ float:left;width:50%; font-size:14px;}
+.pcb_prototype .process-step .pcb_img{ float:left; width:80px; font-size:14px; margin-left:4%; margin-top:14px; height:80px;}
+.pcb_prototype .process-step .pcb_price{ float:left; width:75%;margin-left:3%;}
+.pcb_prototype .process-step .pcb_price p{ color:#ccc;margin-top:3px; font-size:12px; line-height:16px; padding-left:6px;}
+.pcb_prototype .process-step .pcb_price p b{color:#333; font-weight:normal; font-size:14px;}
+.pcb_prototype .process-step .pcb_price table{margin-top:7px; width:100%; text-align:left;}
+.pcb_prototype .process-step .pcb_price table td{ padding-left:10px;}
+.pcb_prototype .process-step .pcb_price table .buildtime{ font-size:12px; color:#888;}
+.pcb_prototype .process-step .pcb_price table .buildprice{ color:#ff6600;}
+.pcb_prototype .process-step .pcb_price table .buildprice td{ padding-left:0;}
+.pcb_prototype .process-step .pcb_price table .buildprice td span{border: 1px solid #F40;text-align: center;height:16px;font-size:13px;
+    line-height:18px;border-radius: 12px; overflow: hidden; display:inline-block; margin-top:6px;width:60px; cursor:pointer;}
+	.pcb_prototype .process-step .pcb_price table .buildprice td span:hover{ background-color:#fef9dd;}
+
+.pcbquote-main .pcb_shop{display:block;height:355px;overflow:hidden;padding-top:3px;color:#333;background:url(../images/80pha.png) repeat 0 0;text-decoration:none;;position:absolute;z-index:10; right:0; top:0; width:219px;-webkit-transition:-webkit-transform .2s linear;-moz-transition:-moz-transform .2s linear;-o-transition:-o-transform .2s linear;transition:transform .2s linear}
+.pcbquote-main .pcb_shop:hover{-webkit-transform:translateX(-5px);-moz-transform:translateX(-5px);-ms-transform:translateX(-5px);-o-transform:translateX(-5px);transform:translateX(-5px)}
+.pcbquote-main .pcb_shop h4{ font-size:19px; color:#159834; padding-top:24px; line-height:26px; height:26px; text-align:center;}
+.pcbquote-main .pcb_shop .line-h{ height:3px; display:block; margin:0 auto; background-color:#c1dfc6; margin-top:7px;}
+.pcbquote-main .pcb_shop .img{display:block;padding-top:10px;margin-left:31px;width:167px;margin-bottom:12px;height:156px;}
+.pcbquote-main .pcb_shop .imgTitle{font-size:18px;text-align:center;line-height:18px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;font-weight:bold;color:#333;padding:8px 30px;}
+.pcbquote-main .pcb_shop .desc{ line-height:16px; font-weight:bold; text-align:center; color:#616060;}
+.pcbquote-main .pcb_shop .triangle{position:absolute;z-index:-1;bottom:0;width:0;height:0;border-right:240px #eee solid;border-bottom:240px #eee solid;border-top:240px #fff solid;border-left:240px #fff solid; opacity:0.5}
+
+.hm-icon{ background:url(../images/pwicon.png) no-repeat 0 0; display:inline-block;_display:inline; _zoom:1;}
+.feature-list{ width:54.4%; background:url(../images/line-rightj.png)  no-repeat right 0; margin-top:18px; padding-top:19px; padding-bottom:15px;}
+.feature-list .left .hm-icon{ float:left; width:42px; height:42px;margin-right:9px;}
+.feature-list .bestv .hm-icon{background-position:-84px 0;}
+.feature-list .fastt .hm-icon{background-position:-130px 0;}
+.feature-list .lowm .hm-icon{background-position:-176px 0;}
+.feature-list .bestv{ width:33.7%;}
+.feature-list .fastt{ width:32%;}
+.feature-list .lowm{ width:34%;}
+.feature-list .left h3{ color:#00a63f; font-size:16px; font-weight:normal;white-space:nowrap; margin-top:2px;}
+.feature-list .left p{ color:#616161;white-space:nowrap;}
+
+.feature-introduct{ position:relative; width:45.6%; margin-top:18px; margin-bottom:12px;}
+.feature-introduct h2{ margin-left:30px; font-size:14px;font-weight:bold; height:24px; line-height:24px; margin-right:82px; margin-bottom:4px; color:#616161;}
+.feature-introduct .column{ height:76px; overflow:hidden;}
+.feature-introduct p{ margin-left:30px; color:#999;line-height:16px;margin-right:82px;}
+.feature-introduct .hm-icon{background:url(../images/pwicon.png) no-repeat -236px -1px; display:block;right:0; bottom:0; position:absolute; width:72px; height:45px;}
+.module-wrap{ background-color:#fff; margin-bottom:30px;}
+.module-wrap .market-list{float:left; width:31.6%;overflow: hidden;}
+.module-wrap .market-dynamic{ height:38px;line-height:38px; padding-top:12px; margin-bottom:8px;border-bottom:1px solid #ece8e9;}
+.col-main{ background:#F2F3F7;padding:30px 0;}	
+.module-wrap .market-dynamic .title {color:#616161;float: left; font-size:16px; margin-left:20px;}
+.module-wrap .market-dynamic .market-info {float: right;overflow: hidden;height: 34px; width: 166px; margin-right:6px;}
+.module-wrap .market-dynamic ul.containerli{overflow:hidden;_display:inline-block}
+.module-wrap .market-dynamic .f-tab-b{text-align:right;display:block;height:34px;overflow:hidden;margin-left:0;}
+.module-wrap .market-dynamic .f-tab-b{ font-size:12px; color:#9b9b9b;}
+.module-wrap .market-dynamic .f-tab-b .num{ color:#ff6600;}
+.module-wrap .market-dynamic .f-tab-b span.p-icon{width:10px;height:10px;display:inline-block;*display:inline;*zoom:1;background-position:-153px -17px}
+.order-market{ margin-left:20px;}
+.olist-title{ height:32px; line-height:32px;}
+.olist-title li{ height:32px; line-height:32px; color:#959595; font-weight:bold; float:left; font-size:12px;}
+.orlist-container{height:216px;overflow: hidden;}
+.orlist-container .p-icon{ width:29px; height:15px; background-position:-301px -1px;}
+
+.orlist-container li{ color:#999; font-size:12px; float:left; margin:6px 0;}
+.orlist-container .s-price{color:#ff6600; font-weight:bold;}
+.orlist-container .oprogress i{ display:block;  background:#f7f6f3; margin-top:2px;height:10px; line-height:10px; position:relative; overflow:hidden; border-radius:2px;}
+.orlist-container .oprogress span{ background:#a6d6a9; display:inline-block;height:10px;  color:#fff; text-align:right}
+.orlist-container .oprogress sup{ position:absolute;height:10px; line-height:10px; color:#fff;}
+.index-sale{ float:left; width:68.4%}
+.market-application-list{ display:block;}
+.market-application-list li{ float:right;    text-align: center;
+    position: relative;width:33.3%;height:410px;
+    color: #424242;}.market-application-list li:hover{box-shadow: 0 3px 10px 0 rgba(51,51,51,.298039);}
+.market-application-list li .markey_bg_nav{width:100%;height:18px; display:block;margin-bottom:18px;}
+.market-application-list .standard_specs{background-color:#f9fcfe;}
+.market-application-list .custom_specs{background-color:#fdfdfc;}
+.market-application-list .pcb_assembly{background-color:#f5fbfa;}
+.market-application-list .standard_specs:hover{background-color:#eaf4fa;}
+.market-application-list .custom_specs:hover{background-color:#f9f9ee;}
+.market-application-list .pcb_assembly:hover{background-color:#e7fefa;}
+.market-application-list .standard_specs .markey_bg_nav{background-position:-218px -132px; }
+.market-application-list .custom_specs .markey_bg_nav{background-position:-218px -151px;}
+.market-application-list .pcb_assembly .markey_bg_nav{background-position:-218px -170px;}
+.market-application-list .split-line {
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}.market-application-list .standard_specs .icon-csts{ background-position:-93px -60px;width:94px; height:76px;}
+.market-application-list .custom_specs .icon-ccs{background-position:-10px -56px;width:75px; height:76px;}
+.market-application-list .pcb_assembly .icon-cpa{background-position:-204px -51px;width:69px; height:76px;}
+.market-application-list li h3{color:#ff7b00; font-size:20px; position:relative; margin-bottom:23px;}
+.market-application-list li h3 .hot-icon{ position:absolute; left:50%; margin-left:46px; width:21px; height:12px; background-position:-173px -26px; top:-7px;}
+.left-ability{ overflow:hidden; height:26px; line-height:26px; font-size:14px;}
+.left-ability label{ float:left; margin-left:6%; color:#838383;}
+.left-ability span{ float:right;margin-right:6%;}
+.left-ability .hm-icon.main-picon{ background-position:-314px -5px; width:80px; height:15px;}
+.market-application-list li .ui-button.ui-button-primary{ margin-top:34px; height:28px; line-height:28px; font-size:16px; width:73%;}
+/*-----------------*/
+
+.module-wrap .whyus h2{
+    color: #616161;margin-left:20px;
+    font-size:19px;letter-spacing:-1.4px;
+	padding:23px  0 21px;
+}.module-wrap .whyus .goldBullet {
+ margin-right:10px;
+    overflow: hidden;margin-left:20px; margin-bottom:20px;
+}.module-wrap .whyus .goldBullet li {
+    margin-bottom: 7px;
+    color: #888;
+}.module-wrap .whyus .goldBullet li .f-sp-check{ background:url(../images/iconspirit.png)  no-repeat -68px -114px; width:12px; height:12px; display:inline-block; margin:0 10px 0 2px;}
+.module-wrap .whyus .f-tour {background: #d8ebc3; margin:8px 10px 26px 20px;
+    position: relative;
+    padding: 7px 7px 10px;
+}.module-wrap .whyus .dddds {
+    width:66%;
+    display: inline-block;
+    color: #5c5c5c;
+}.module-wrap .whyus .f-tour .title-fss {
+    font-size: 22px;letter-spacing:-1.5px;
+    line-height: 32px;
+}.module-wrap .whyus .dddds p {
+    margin: 0;
+    color: #333;
+    text-align: left;
+    font-size: 11px;
+    line-height: 12px;
+}.f-tour a {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}.index-sale .h-items>li {
+    width:33.3%;
+    margin: 0;    font-size: 14px;
+    overflow: hidden;
+    float: left;
+}.index-sale .h-items .item {
+    padding-left:8%;
+	border-left:1px solid #ece8e9; height:384px;
+    overflow: hidden;
+}.index-sale .h-items .item .item-img {
+    width: 180px;
+    height: 180px;
+}.util-valign{display:table;overflow:hidden;height:100%;*position:relative}
+.util-valign .util-valign-ctn{display:table-cell;vertical-align:middle;text-align:center;*position:absolute;*top:50%;*left:50%}
+.index-sale .h-items .item .item-img img {
+    max-width: 180px;
+	 -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+    max-height: 180px;
+}.util-valign .util-valign-ctn:hover img{-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);}
+.index-sale .h-items .hot-item .f-tag-wrap {
+    margin: 20px 0 10px 0;
+    height: 20px;
+    display: inline-block;
+    overflow: hidden;
+}.index-sale .h-items .hot-item .f-tag {
+    vertical-align: middle;
+    background-color: #FEEBD7;
+    color: #FD9F41;
+    height: 20px;
+    line-height: 21px;
+    font-size: 12px;
+    padding: 0 16px 0 8px;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+}.index-sale .h-items  .hot-item .f-tag i{width:0;height:0;border-top:10px solid transparent;border-right:8px solid #FFF;border-bottom:10px solid transparent;position:absolute;top:0;right:0}
+.index-sale .h-items .hot-item a {
+    font-size: 16px;
+    color: #000;
+}.index-sale .h-items .hot-item .details {
+    margin: 5px 0 28px;
+    height: 35px;
+    overflow: hidden;
+    color: #999;
+    display: block;
+}.index-sale .h-items .hot-item .detail-item {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 18px;
+}.index-sale .h-items .hot-item .item-page {
+    color: #FF6A00;
+    font-size: 22px;
+}.index-sale .h-items .hot-item .item-page em{color:#999; font-size:14px;}
+.index-sale .h-items .hot-item .item-page:visited,.index-sale .h-items .hot-item .item-page:hover,.index-sale .h-items .hot-item .item-page:active,.index-sale .h-items .hot-item .details:hover,.index-sale .h-items .hot-item a:hover{ text-decoration:none;}
+
+.wcontainer .hm-mt {
+	text-align: center;
+    padding:12px 0 24px 0;
+}.wcontainer .hm-mt span.d-line {
+    width: 68px;
+    height: 1px;
+    background: #000;display: inline-block;
+    vertical-align: middle;
+}.wcontainer .hm-mt h3.d-title {
+    font-size: 28px; display:inline-block;*display:inline;*zoom:1;
+    margin: 0 29px;
+    color: #000;
+    font-weight: bold;
+}.wcontainer .hm-mt .sub-t {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #000;
+}.wcontainer .hm-mt .sub-t a{color: #000;}
+.slide-wrapper {
+    position: relative;
+    height:390px;
+    width: 100%;
+    overflow: hidden;
+}.slide-wrapper .btnh{
+    position: absolute;
+    left: 50%;
+    top: 160px;
+    width: 32px;
+    height: 66px;
+    overflow: hidden;
+    background: url(../images/pcbway/pre-nexthm.png) no-repeat;
+    z-index: 4;
+}.slide-wrapper .citemslide{overflow: hidden;
+    width:100%; height:378px;
+    position: relative;}
+.slide-wrapper .pre-btn {
+    margin-left: -600px;
+    background-position: 0 0;
+}.slide-wrapper .next-btn {
+    margin-left: 568px;
+    background-position: right top;
+}.slide-wrapper ul.goods-list {
+	float:left;
+    width: 1200px;
+}/*five goods*/
+.slide-wrapper .goods-list li{margin-left:10px;width:232px;height:368px;background:#fff;float:left;position:relative;margin-bottom:7px;}
+.slide-wrapper .goods-list li.item-1{margin-left:0;}
+.slide-wrapper .goods-list li .goods-img{padding:25px 25px;position:relative;}
+.slide-wrapper .goods-list li .info{position:relative;width:200px;height:120px;left:16px;top:0px;}
+.slide-wrapper .goods-list .discount{position:absolute;background:#e43402;width:80px;text-align:center;height:20px;right:0;top:170px;}
+.slide-wrapper .goods-list .discount p{font-size:14px;color:#fff;line-height:23px;}
+.slide-wrapper .goods-list .name{position:absolute;color:#333333;font-size:14px;top:0px;width:200px;height:30px;overflow:hidden;left:0;line-height:1;}
+.slide-wrapper .goods-list .intro{font-family:"Arial";font-size:12px;color:#999999;position:absolute;top:94px;width:230px;height:35px;overflow:hidden;line-height:1.5;}
+.slide-wrapper .goods-list .count-off{font-size:14px;color:#fff;background:#7cafde;text-align:center;position:absolute;top: 93px;left: 58px;height:20px;width: 60px;line-height:22px;letter-spacing:1px;}
+
+.goods-list a.mod-a{display:block;width:100%;height:100%;background:url(_blank);-webkit-transition-duration:200ms;-moz-transition-duration:200ms;-o-transition-duration:200ms;transition-duration:200ms;cursor: pointer;}
+.goods-list a.mod-a:hover{box-shadow:3px 3px 10px rgba(51,51,51,.5);}
+
+.slide-wrapper .goods-list .wb-feedback{position: absolute;
+    top: 70px;
+    left: 0;}
+.slide-wrapper .goods-list .wb-feedback .feedback-num{color:#717171; font-weight:bold; margin-left:6px;}
+.slide-wrapper .goods-list li .info .star-s{    position: absolute;
+    top:88px;
+    left: 0;}
+/*=============star========================*/
+.star{display:block;width:170px;height:35px;margin:3px 10px 0 0}.star span{display:block;width:0;height:100%}.star-s,.star-s span{background:url(../images/pcbway/rating-stars.png) repeat-x 0 -100px}
+.star-s{width:70px;height:20px}.star-s span{background-position:0 0}
+
+
+.smartphone-floor {
+    background: #d7dfe7; padding-bottom:30px;
+}.smartphone-floor .floor-title {
+    height:90px;
+    font-size:28px;
+	line-height:100px; background:url(../images/pcbway/bg-sanjiao.png) no-repeat 50% 50%;
+	font-weight:bold; text-align:center;
+}.smartphone-floor .floor-entrance{display:block;width:474px;height:345px;-webkit-transition-duration:200ms;-moz-transition-duration:200ms;-o-transition-duration:200ms;transition-duration:200ms}.smartphone-floor .floor-entrance:hover{-webkit-transform:scale(1.01);-moz-transform:scale(1.01);-o-transform:scale(1.01);-ms-transform:scale(1.01);transform:scale(1.01);-webkit-box-shadow:1px 1px 3px rgba(60,60,60,.5);-moz-box-shadow:1px 1px 3px rgba(60,60,60,.5);box-shadow:1px 1px 3px rgba(60,60,60,.5)}
+.img-wrapper {
+    background: url(../images/pcbway/loading112.gif) no-repeat 50% 50% #fff;
+}
+.goods-floor .item-list {
+    margin-right: -10px;
+}.smartphone-floor .item-list {
+    margin-top: -345px;
+}.goods-floor .item-list li {
+    float: left;
+    margin: 0 10px 10px 0;
+}.goods-floor .item-list .first-item {
+    margin-left: 484px;
+}.goods-floor .item-list li a {
+    display: block;
+    width: 232px;
+    height: 345px;
+    background: #fff;
+}.goods-floor .item-list .img-wrapper {
+    display: block;
+    width: 100%;
+    height: 232px;
+    margin-bottom: 6px;
+    text-align: center;
+}.goods-floor .item-list .img-wrapper img{width:232px;-webkit-transition-duration:200ms;-moz-transition-duration:200ms;-o-transition-duration:200ms;transition-duration:200ms}.goods-floor .item-list a:hover{-webkit-transform:scale(1.02);-moz-transform:scale(1.02);-o-transform:scale(1.02);-ms-transform:scale(1.02);transform:scale(1.02);-webkit-box-shadow:2px 2px 5px rgba(60,60,60,.5);-moz-box-shadow:2px 2px 5px rgba(60,60,60,.5);box-shadow:2px 2px 5px rgba(60,60,60,.5)}
+.goods-floor .item-list .info-wrapper{display:block;margin:10px 16px}
+.goods-floor .item-list .info-wrapper .name{display:block;height:40px;line-height:20px;font-size:14px;color:#888;overflow:hidden}
+.goods-floor .item-list a:hover{ text-decoration:none;}
+.goods-floor .item-list .info-wrapper .current-price{display:block;height:36px;line-height:36px;font-size:18px;color:#68acf5;}
+
+
+/*hyperchannel*/
+.hyperchannel {background: #fff;margin-top:10px;overflow: hidden;height:241px;clear:both;}
+.hyperchannel .item {border-right:1px solid #e9e9e9;width:20%;height:160px;float:left;text-align: center;padding:0px 2%;overflow: hidden}
+.hyperchannel .item s {background: url("../images/pwicon.png") 0 -141px;width:50px;height:52px;display: inline-block;*zoom:1;*display:inline;}
+.hyperchannel .item h4 {color:#333;font-size:17px;margin-top:20px; font-weight:bold;}
+.hyperchannel .item p {color:#bbb;font-size:13px;margin-top:15px;line-height: 16px;}
+.hyperchannel .item.fore2 s {background-position:-55px -146px;}
+.hyperchannel .item.fore3 s {background-position:-105px -146px;}
+.hyperchannel .item.fore4 s {background-position:-161px -142px;}
+.hyperchannel .item.fore4 {border:none;}
+.hyperchannel .wcontainer{overflow: hidden;border-bottom:1px solid #e9e9e9;padding:40px 0;}
+
+.icon-help-tip {
+    background: transparent url(../images/pcbway/minisite_question.png) no-repeat scroll 0 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 14px;
+    margin-left: 5px;
+    width: 14px;
+    vertical-align: middle;
+}

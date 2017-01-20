@@ -1,0 +1,476 @@
+﻿/*common*/
+html{-webkit-text-size-adjust:none;}
+.container{ width:1200px; margin:0 auto}
+.caclulate-content{padding:20px 0; }
+.navbar-collapse{background-color:#e9eef4;border:1px solid #e4eaf1;height:67px; margin-bottom:16px; padding:12px 0;}
+.navbar-collapse .navbar-nav{ width:1010px; margin:0 auto;}
+
+
+.pcbway_link{display:block;float:left;margin:0 5px;padding:2px;cursor:pointer;border:solid 1px #AED16F;text-align:center;line-height:58px; width:186px;height:60px;/*bevel*/border-radius:3px;box-shadow:3px 3px 10px 0px rgba(255,255,255,0.75) inset,-1px -1px 3px 0px rgba(0,0,0,0.1) inset;/*gradient*/background:rgb(255,255,255);/* Old browsers */background:-moz-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%);/* FF3.6+ */background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(255,255,255,1)),color-stop(100%,rgba(238,238,238,1)));/* Chrome,Safari4+ */background:-webkit-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%);/* Chrome10+,Safari5.1+ */background:-o-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%);/* Opera 11.10+ */background:-ms-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%);/* IE10+ */background:linear-gradient(to bottom,rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%);/* W3C */}
+.pcbway_link input[type="radio"] {visibility:hidden;position:absolute;top:3px;left:3px;}
+.pcbway_link.active {border:solid 3px #00a63f;box-shadow:0 6px 12px 0 rgba(0,0,0,0.2) inset;padding:0px;}
+.pcbway_link DIV.label{margin:-1.0em 5px 0px 5px;position:relative;top:50%;}
+.pcbway_link a:link,.pcbway_link a:visited,.pcbway_link a:hover,.pcbway_link a:active{ text-decoration:none;}
+.pcbway_link .text{ color:#555555; font-size:16px; margin-left:5px;}
+.checkinch.pcbway_link{ width: auto; height:28px; line-height:28px; padding:0 5px; margin-left:10px; border-color:#ccc;}
+
+
+
+.ui2-step {
+    font-size: 14px;
+    overflow: hidden;
+    width: 100%;
+}.bao-step {
+    margin-bottom:10px;
+}.ui2-step li{margin:0;padding:0;list-style:none;text-align:center;float:left}.ui2-step li:first-child span{margin-left:0}.ui2-step .last span{margin-right:0}.ui2-step-6 li{width:16.6666%}
+.ui2-step span{padding-left:10px;display:block;height:32px;line-height:32px;margin-left:16px;margin-right:4px;position:relative}.ui2-step span:after{content:"";border-top:16px solid transparent;border-bottom:16px solid transparent;border-left:16px solid transparent;position:absolute;right:-16px;top:0;z-index:1}.ui2-step span:before{content:"";border-top:16px solid transparent;border-bottom:16px solid transparent;border-right:16px solid transparent;border-left:16px solid transparent;position:absolute;left:-16px;top:0;z-index:1}.ui2-step li:first-child span:before{display:none}.ui2-step .last span:after{display:none}.ui2-step .ui2-step-done span{background:#ffe0cc;color:#333}.ui2-step .ui2-step-done span:before{border:16px solid #ffe0cc;border-left:16px solid transparent}.ui2-step .ui2-step-done span:after{border-left:16px solid #ffe0cc}.ui2-step-curr span{background:#ffe0cc;color:#777}.ui2-step .ui2-step-curr span:before{border:16px solid #ffe0cc;border-left:16px solid transparent}.ui2-step .ui2-step-curr span:after{border-left:16px solid #ffe0cc}.ui2-step-undone span{background:#e9eef4;color:#999}.ui2-step .ui2-step-undone span:before{border:16px solid #e9eef4;border-left:16px solid transparent}.ui2-step .ui2-step-undone span:after{border-left:16px solid #e9eef4}
+.maui-layout-box{
+    padding-right: 350px;
+}
+.maui-row-main {
+    width: 100%;
+        float: left;
+}
+.maui-layout-box .maui-row-right {
+    padding: 0;
+	margin-top:0;
+	float: right;
+	width: 330px;
+	margin-right: -350px;
+}.mt20 {
+    margin-top: 20px;
+}
+.maui-layout-box .maui-row-main-wrap {
+    width: 100%;
+        float: left;
+}
+.compose-topbar .compose-status {
+    font-size: 13px;
+    line-height:14px;display: inline; float:left; color:#555;
+}
+.compose-actions {
+	position:relative;
+    display:inline-block;
+}.compose-topbar .compose-actions{width:50%;}
+.compose-actions i.calculator-icon1{ position:absolute; left:22px; top:8px;}
+.compose-actions .compose-action {line-height: 20px;font-size: 14px;background-image:url(../images/newpcbway/icon-spr.png); background-position:22px 8px; background-repeat:no-repeat;
+	padding:3px 24px 3px 38px;
+    height:32px; 
+}.compose-topbar .compose-actions .compose-action{background-position:40% 8px; width:100%}
+.compose-topbar .btn-reset{font-size: 14px;background-image:url(../images/newpcbway/icon-spr.png); background-position:34% -150px; background-repeat:no-repeat;
+	padding:3px 24px 3px 38px; font-weight:normal;
+    height:24px; width:40%; display:inline-block;line-height:22px;
+}.compose-topbar .btn-reset:hover{ background-color:#eee;}
+.ui2-button-primary, a.ui2-button-primary {
+    background-color: #27ae61;
+    color: #fff; border-radius: 3px;
+    vertical-align: baseline; border:1px solid #219452;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}.ui2-button-primary:hover{background-color: #25a159;
+    border-color: #219452;}
+.icon-spr{ background:url(../images/newpcbway/icon-spr.png) no-repeat 0 0; display:inline-block;}
+.calculator-icon1{ width:17px; height:14px; vertical-align:middle;}
+.maui-row-main-wrap .ui2-box{margin-top:4px;border-radius:3px;padding:15px 20px;border:1px solid #DAE2ED;background-color:#FFF;box-shadow:0 1px 1px #cfdce4}
+.maui-row-main-wrap .ui2-box-wrap {
+    margin-bottom: 8px;
+}.maui-row-main-wrap .negotiation-products .ui2-box {
+    margin-top: 14px;
+}.title-medium {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+}.ui2-box-header, .ui2-box-title {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}label.ui2-box-title:hover{ color:#3db11d;} 
+.maui-row-main-wrap .ui2-box-title {
+    cursor: pointer;
+    font-size: 16px;
+}.maui-row-main-wrap .ui2-box-body {
+    margin-top:6px;
+}.input-group .form-control.datepicker{ background:#f3f3f3; cursor:not-allowed;}
+/*prototype pcb*/
+.color99{ color:#999;}
+.iso-arrow{ float:right;}
+.list-mian-block{background:#f9fbff; margin:0 -20px 18px;padding:14px 20px 10px;}
+.list-search-filter {
+    margin-bottom:8px;
+    padding-left:130px;
+    padding-right:0;
+    position: relative;
+}h4.list-search-row-title {
+    color: #777;
+    display: inline-block;
+    font-size: 13px;
+    min-width: 120px;
+    text-align: left;
+    white-space: nowrap;
+}.list-search-filter h4.list-search-row-title {
+    left: 0;
+    position: absolute;
+    top: 6px;
+}.list-search-filter a.filter-tag {
+    border: 1px solid #dfe6f0;
+    border-radius:0;
+    color: #697c90;
+    display: inline-block;
+	background:#fff;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    padding: 5px 6px;
+    text-decoration: none;
+}.list-search-filter a.filter-tag:hover{border: 1px solid #00c339;}
+.list-search-filter a.filter-tag.active {
+    border: 1px solid #00c339;
+    position: relative;
+}.list-search-filter a.filter-tag.unclickbtn{ background:#f9f9f9; border:1px dashed #dfe6f0}
+.list-search-filter a.filter-tag.unclickbtn:hover{border: 1px dashed #dfe6f0;}
+.list-search-filter a.filter-tag.active i{
+background-image: url("../images/newpcbway/icon-spr.png");
+    background-position: -20px -388px;
+    background-repeat: no-repeat;
+    bottom: 0;
+    display: block;
+    height: 12px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-indent: -99em;
+    width: 12px;
+}
+.ui2-radio-customize-input{ vertical-align:middle;
+
+}.ui2-radio-customize-label {
+    top: 3px;
+    cursor: pointer;
+    display: inline-block; height:28px; line-height:28px; margin-right:28px;
+    position: relative;
+}.ui2-form-col18{ height:30px;}
+.dropdown-toggle{margin:0 -20px 8px;padding:10px 20px;  border:1px solid #ededed; background:#fff; display:none;}
+.smfl label {
+    margin-right:10px;
+}
+.smfl input {
+    margin-right: 3px;
+}
+.ln-ipt.form-control {
+	width:60px; display:inline-block;
+    vertical-align: middle;
+}
+.example {
+    border-bottom: 1px dashed #007cdc;
+    color: #007cdc;
+    cursor: pointer;
+    padding-bottom: 2px;
+}.mr50 {
+    margin-right: 50px;
+}.jealk label{ color:#777;}
+.ui2-dropdown-customize {
+    border: 1px solid #c6cad1;
+    color: #333;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 ; display: inline-block;
+    position: relative;background: #fff none repeat scroll 0 0; z-index:3;*display:inline;*zoom:1;
+}.jealk .ui2-dropdown {
+    width:51px;margin-right:0;
+}.ui2-dropdown {
+    margin: 0 15px 0 0;
+    border-radius: 3px;
+}.ui2-dropdown-layout {
+    font-size: 13px;display: inline-block;
+}.ui2-dropdown-layout a {
+	 padding-left:9px; 
+    color: #333;
+    display: block;
+    line-height: 24px; 
+    padding-right: 8px;
+    text-decoration: none;
+}.ui2-dropdown-layout a  a:hover {
+    color: #666;
+}.ui2-icon-arrow-down{ background:url(../images/newpcbway/icon-spr.png) no-repeat 5px -61px;cursor: pointer;top: 0;
+    height: 26px;
+    padding: 0 0 0 5px;
+    text-align: center; width:20px;
+}.ui2-popup-menu{ display:none;padding: 8px 0; border: 1px solid #e7e7e7;
+    font-size: 13px;  box-shadow: 2px 2px 5px rgba(83, 100, 122, 0.35);overflow: hidden;
+    text-overflow: ellipsis;position:absolute; left:0; top:100%; z-index:100; background:#fff;}	
+
+.ui2-popup-menu li a {
+    cursor: pointer;
+    text-decoration: none;  height: 28px;
+    line-height: 28px; background-color: #fff;
+    border: 0 none;
+    color: #666;
+    display: block; padding: 0 15px;
+    white-space: nowrap; overflow: hidden;
+    text-overflow: ellipsis;
+}.ui2-popup-menu li a:hover{background-color:#edf1f5}.ui2-popup-menu li a:active{color:#ff751a;}	
+	.jealk .ln-ipt{ margin-left:-7px;}
+	.ui2-dropdown-customize.opened{ border:1px solid #1686cc;}.ui2-dropdown-customize.opened .ui2-popup-menu{ display:block;}.ui2-form-required {
+    color: #cc1414;
+}.differentp .form-control{ width:132px;display: inline-block;
+    vertical-align: middle;}
+.differentp{ display:inline-block; height:50px;}	
+/**/.smintip{ cursor:pointer;}
+.wdetail-tips{ max-width:none;}
+/**/
+ .input-group .form-control{ float:left;display:inline-block; width:85px; background:#fcf8e3;}
+ .input-group .form-control:first-child{border-bottom-right-radius: 0;border-top-right-radius: 0; }
+ .input-group .form-control:not(:first-child){border-radius: 0;}
+ .input-group-addon {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+	height:16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height:16px;
+    padding: 6px 12px;
+    text-align: center; display:inline-block;
+}.input-group  .input-group-addon{ float:left;  border-radius: 0px;}
+.input-group .input-group-addon:last-child{
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border-left: 0 none;
+}
+.xy-sizepanelpic{ position:absolute; right:0px; top:-15px;}
+.fangkc{height:12px; width:10px;display:inline-block;}
+
+.boardnumber{ width:346px; border:1px solid #66afe9; overflow:hidden; position:absolute; left:0px; top:28px; top:28px\9;  background-color:#FFF; z-index:2; padding:7px 0 5px 10px; color:#6E6E6E;}
+.boardnumber ul{ width:347px; overflow:hidden; padding:0px 4px;}
+.boardnumber li{ float:left; width:57px; padding-bottom:4px; font-size:12px;}
+.boardnumber .boardnumberbtn input.txtstyle2{ width:95px; height:20px; line-height:20px; border:1px solid #d8d8d8; color:#6E6E6E; padding-left:3px; margin-right:3px;}
+.boardnumber .boardnumberbtn{ padding-bottom:8px; padding-left:4px;}
+.boardnumber .boardnumberbtn a input{ width:60px; height:23px; text-align:center; line-height:23px; cursor:pointer;border:0px; font-size:12px; margin-left:6px;background:#467FEA;border-radius:2px;color:#fff;}
+.boardnumber .boardnumberbtn a:hover{ text-decoration:none;opacity:0.8;}
+.boardnumber .boardnumberbtn a input#btn3{ background:#7B7B7B;}
+/*打叉板-喷锡*/
+.custom-weight-show { margin-bottom:10px;
+    background-color: #fffae0;
+    border: 1px solid #f1d38b; color:#999;
+    padding:4px 4px 2px; margin-top:5px;font-size:11px;
+}.yes-no-hasl{margin-top:0px; color:#333;}.yes-no-hasl label{line-height: 20px;padding-right: 10px;vertical-align: middle;}
+.yes-no-hasl input{font-size: 12px; vertical-align: middle;
+    margin-right: 5px;
+}
+.form-control.inquiry-content{max-width: 100%;
+    min-height:70px; line-height:18px; padding:6px 10px;
+    resize: none;
+    width:90%;}
+.smdstencil-note{ font-size:13px; color:#999; margin-left:30px; font-weight:normal;}
+.ui2-action-gap.ui2-icon-arrow-down{ display:inline-block; height:20px;}
+.mb10 {
+    margin-bottom: 10px;
+}
+.mh-notice-board {
+    background-color: #f5f7fa;
+    border: 1px solid #dae2ed;-webkit-box-shadow:1px 1px 2px rgba(83,100,122,.15);-moz-box-shadow:1px 1px 2px rgba(83,100,122,.15);box-shadow:1px 1px 2px rgba(83,100,122,.15)
+}
+.mh-notice-board h3 {
+    border-bottom: 1px solid #dae2ed;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 0;
+    padding: 0 10px;
+}
+.mh-notice-board .notice-board-content {
+	background:#fff;
+    padding: 10px 10px 5px;
+} .maui-row-main-wrap .negotiation-caclulate .ui2-box{ background:#f5f7f8;}
+.mh-area-box{ margin-bottom:10px;}.payment-type {
+    background-color: #fff;
+    border:1px solid #dddddd;
+    padding:8px;
+}.payment-type .ui2-notice-small {
+  padding:10px 26px 4px 2px;
+}.ui2-icon-smile{ background-position:0 -127px; width:18px; height:17px; margin-right: -26px; float: left;}.ui2-notice-small .ui2-notice-content {
+    color: #999;
+    margin-left:10px;
+    width: 100%;
+}.shipping-pay-icon i{ background:url(../images/iconspirit.png) no-repeat 0 -140px; height:19px; display:inline-block;margin-bottom:4px;}
+.shipping-pay-icon i.pay-icon{ width:165px;}.shipping-pay-icon i.pay-icon2{ width:165px; margin-left:3px; background-position:0 -161px;}
+.shipping-pay-icon i.wuliu-icon{ background-position:-168px -140px;width:212px;}
+.shipping-pay-icon i.wuliu-icon2{ background-position:-168px -161px;width:210px;}
+.ui2-notice-content p{ margin-bottom:4px; line-height:14px; font-size:11px;}.ui2-notice-content p b{ color:#333;}.shipping-pay-icon{ margin:10px 0;}
+
+.selected-price-header{ color:#aaa; font-size:12px; font-weight:bold;border:1px solid #eee; padding:3px 0;}
+.selected-price-header span{ float:left; display:inline-block;*display:inline;*zoom:1; text-align:left;}
+.selected-price-header span.buildt{ width:96px; padding-left:44px;}
+.selected-price-header span.pcbqty{ width:70px; text-align:center;}
+.selected-price-header span.pcbsubtotal{ width:87px;text-align:center;}
+.options-field{border-radius:0px 0px 3px 3px;padding:4px 4px 0;position:relative;background-color:#f1f4f4;color:#858d90;margin-bottom:13px;cursor:pointer;border:1px solid #f1f4f4; text-align:left;*padding-bottom:3px;}
+.options-field .option {
+	display:block;
+    position: relative;
+	height:33px; line-height:33px;
+	color:#888;font-size: 13px;
+    font-weight: 700; margin-bottom:4px;
+    cursor: pointer; z-index:1;
+}.options-field .option .radio-icon {
+    background-image: url(../images/radio-icon.png);
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top:6px;
+    left:8px; z-index:2;
+}.options-field .option.selected .radio-icon {
+    background-image:url(../images/radio-icon-che.png);
+    width: 22px;
+    height: 22px;
+}.options-field .option.selected {
+	background:#ffffff; border-radius:2px;
+    color: #3b474c;box-shadow:0 1px 0 rgba(0,0,0,.05);
+}.options-field .option .label {
+    font-size: 13px;
+    font-weight: 700; float:left;
+	padding-left:40px;width:100px;
+    display: inline-block;
+}.options-field .option .label img{vertical-align:middle; margin-bottom:3px;}
+.options-field .option .qty-div{ float:left; width:70px; text-align:center;}
+.options-field .option .extra {width:87px;float: right;text-align:center;}
+
+.notice-board-content .specification{
+    color: #666;
+}
+.notice-board-content .specification label {
+    line-height: 22px;color:#888; 
+}.notice-board-content .specification{ margin-bottom:10px;color:#333;}
+					.notice-board-content .specification select{ border:1px solid #cbcbcb; font-size:12px; border-radius:3px; padding:4px 0;}
+					.notice-board-content .specification span{ display:block; float:left; font-size:11px; font-weight:700;}
+					.notice-board-content .delvity{margin:12px 0 16px 0; border-bottom:1px dashed #ddd;color:#666;}
+.notice-board-content .shipping-jiage{ font-weight:700; font-size:12px; color:#219452;}
+.notice-board-content .before-img {
+    padding-bottom: 2px; font-size:11px;
+}
+.notice-board-content .total-a{ color:#666; line-height:22px;}
+.notice-board-content .total-a label {
+    display: block;
+    float: left;
+    width: 90px;
+}.notice-board-content span.cred{ font-weight:bold; font-size:13px; color:#ff0000}#assembly-total{font-size:16px;}
+.notice-board-content .emails{ color:#666; margin-top:12px;}
+.negotiation-footer {
+    line-height: 1.5;
+    margin:0 0 40px; color:#666;
+}.negotiation-footer .price-info{ border-bottom:1px solid #e5e8e8; padding-bottom:6px; margin-bottom:8px;}
+.negotiation-footer .price-info .info-title .count-down {
+    border: 1px solid #FFC7A0;
+    border-radius: 8px; font-size:12px; line-height:15px;
+    color: #ED5F00;
+    display: inline-block;
+    margin-left: 0;
+    padding: 0 6px;
+}.negotiation-footer .price-info .info-title .f-tag {
+    vertical-align: middle;
+    background-color: #ffa900;
+    color: #fff;
+    height:16px;
+    line-height:17px;
+    font-size: 12px;
+    padding: 0 14px 0 6px;
+    position: relative;
+    display: inline-block; margin-right:2px;
+    white-space: nowrap;
+}.negotiation-footer .price-info .che-discount{ margin-bottom:7px;}
+.negotiation-footer .price-info .info-title .f-tag i{width:0;height:0;border-top:8px solid transparent;border-right:7px solid #FFF;border-bottom:8px solid transparent;position:absolute;top:0;right:0}
+.negotiation-footer .price-info .info-title{
+	display:block; float:left;
+	width:65%;
+}.negotiation-footer .price-info .info-value {
+    display:block; float:right;
+	width:34.5%; text-align:right;
+}.detail-negotiation .negotiation-highlight {color: #ff751a;}
+.negotiation-footer .unlogin-email{ margin-bottom:9px;}
+.negotiation-footer .unlogin-email label,.negotiation-footer .liuyan-guide label{ display:block;margin-bottom:3px; font-weight: 700;color: #888;}
+.negotiation-footer .liuyan-guide .form-control.inquiry-content{ width:92.6%; min-height:38px;}
+.negotiation-footer .unlogin-email .form-control{ width:92.6%;}
+.os-btn{background:#fafafa;border:1px solid #d5d7d8;width:100%;padding:6px 12px 6px;text-align:center;color:#454545;border-radius:3px;font-weight:bold;font-size:16px;-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;-ms-transition:all .1s ease-in-out;-o-transition:all .1s ease-in-out;transition:all .1s ease-in-out;position:relative}.os-btn:hover{text-decoration:none}
+
+.compose-footer-actions .os-btn.add-shoppingcart:before{
+    border-right: 1px solid #25a159; left: 0;
+	content:"";
+    padding: 10px;
+    position: absolute;
+    top: 0; background:#25a159 url("../images/newpcbway/icon-spr.png") no-repeat scroll 7px -27px; width:12px; height:13px;
+}.os-btn.success{background-color:#27AE61;border-color:#219452;color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.3)}.os-btn.success:hover{background-color:#25a159;border-color:#219452;color:#fff}.os-btn.success:active{background-color:#27AE61;border-color:#219452;color:#fff;-webkit-box-shadow:inset 0 0 2px rgba(0,0,0,0.2);box-shadow:inset 0 0 2px rgba(0,0,0,0.2)}
+.add-shoppingcart{font-size: 14px;}.os-btn.add-shoppingcart{ width:170px;
+    padding-left: 32px; display:block; height:20px; float:right; line-height:20px;
+}.negotiation-footer .price-info .total-price {
+    font-size: 14px; margin-top:6px;
+    font-weight: 700;
+}.negotiation-highlight {
+    color: #ff751a;
+}.ples-note{ position:relative; background:#fffae0;}.ples-note span{ display:block; cursor:pointer;}
+.ples-note-content{ color:#666; line-height:14px;margin-bottom:8px;}
+.non-elec-testing{ margin-bottom:10px;}
+.datagrid-view2{ overflow-x:auto;}
+.datagrid-view1 th,.datagrid-view2 th{ font-weight:normal; padding:3px;border:1px dotted #ccc;}
+.datagrid-view1,.datagrid-view2{ float:left; font-weight:normal; color:#555; width:50%;}
+.datagrid-view1 table,.datagrid-view2 table{ width:100%;}
+.datagrid-view1 table td,.datagrid-view2 table td{ border:1px dotted #e7eef6; white-space: nowrap;padding:3px 5px; background:#fff;
+    word-wrap: normal;}
+.datagrid-view1 thead tr,.datagrid-view2 thead tr,.datagrid-td-rownumber{
+  background-color: #f5faff;
+  background: -webkit-linear-gradient(top,#f9fcff 0,#f5faff 100%);
+  background: -moz-linear-gradient(top,#f9fcff 0,#f5faff 100%);
+  background: -o-linear-gradient(top,#f9fcff 0,#f5faff 100%);
+  background: linear-gradient(to bottom,#f9fcff 0,#f5faff 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fdfdfd,endColorstr=#f5f5f5,GradientType=0);
+}.datagrid-view1 .active td,.datagrid-view2 .active td{ background:#fff5a0;}.side-bar{width:330px; z-index:3; position:relative;}
+.loadingprice{ position:absolute; top:0px; min-height:590px; width:330px; background:#ccc;opacity:.5;filter:alpha(opacity=50); text-align:center;z-index:3;}.loadingprice img{ vertical-align:middle;margin-top: 200px; }
+
+.price_matirx{ background:#fff;}
+.price_matirx h4{font-size: 14px;font-weight: bold;  height:36px; line-height:36px; padding-left:16px; color:#fff; background-color:#00a63f;}
+.pmtable{ width:100%; font-size:12px; color:#666;}
+.pmtable th{ height:28px; font-weight:700;line-height:28px; background-color:#f7f7f7; text-align:center;}
+.pmtable thead th{ border:1px solid #ededed;}
+.pmtable td{ border:1px solid #e4f3f7;  text-align:center; position:relative; height:32px;}
+.pmtable td img{ vertical-align:middle;}
+.pmtable .eil{ color:#b1474b;}
+.pmtable .standard{ color:#5bc0e1;}
+.pmtable .spar{ color:#5cb85c;}
+tbody.pricetable tr:nth-child(even){background-color:#f7fcfd;}
+.pmtable td a{ display:block;padding:4px 6px; font-weight:bold; height:24px; line-height:24px;}
+.pmtable td a:visited,.pmtable td a:hover,.pmtable td a:active{border:2px solid #00a63f;text-decoration:none;padding:2px 4px;}
+.pmtable td.selected i {position: absolute;right: 1px;bottom: 1px;
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    text-indent: -9999px;
+    background:url("../images/newpcbway/icon-spr.png") -20px -388px no-repeat;
+    display: block;
+}.pmtable td.selected a{border:2px solid #00a63f;padding:2px 4px;}
+
+.price_bar{ background-color:#f2f2f2; width:100%; margin:14px 0 25px;}
+.price_bar td{ height:36px; line-height:36px; text-align:center; color:#888;}
+.price_bar td span{ color:#333; margin-left:5px;}
+.price_bar td span.matirxl_price{ color:#ff6600; font-weight:bold;}
+.btnbottom{ text-align:center;}
+.btnbottom input{ margin:0 10px; vertical-align:middle; }
+.pmatrixicon{font-size:12px;color:#333; border:1px solid #ddd; height:20px; background:url(../images/list-gray.gif) no-repeat 5px 5px #fff; padding-left:25px; display:block; line-height:20px; padding-right:5px; margin-top:6px;}
+.pmatrixicon:visited,.pmatrixicon:hover,.pmatrixicon:active{font-size:12px;color:#00a63f; border:1px solid #00a63f; text-decoration:none; background-position:5px -25px;}
+/*SMT*/
+.flexopt{ background:#fff;border:1px solid #eee;display:inline-block;*display:inline;*zoom:1; width:128px; border-radius:3px; overflow:hidden; vertical-align:middle; margin:0 20px 0 5px; color:#666;font-size:12px; text-align:center; line-height:13px; cursor:pointer;}
+.flexopt span{background:#96b3d4; display:block; height:28px; line-height:28px; font-weight:bold; color:#fff; font-size:14px; padding:5px  0;}
+.flexopt p{ padding:4px 0; font-size:12px; color:#888;}
+.flexopt.tb-selected span{ background:#00a63f;}
+.options-titl{ font-size:12px; font-weight:bold; color:#666; padding:0 0 5px; }
+.assembly-notice{    background: #fffaf3;overflow: hidden;
+    padding:5px;color: #999; font-size:12px;}
+	
+/*inch-mm*/	
+.conf_body{ padding:20px 15px; line-height:18px;}
+.conf_body div.inchbtn{
+    float: right;
+    
+}.conf_body div.inchbtn input{font-size: 11px; font-weight:normal;}
